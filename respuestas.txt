@@ -1,0 +1,19 @@
+E1/
+-El peso aproximado del repositorio seria 0.5+5+3*1=8.5MB
+
+E2/
+-Git significa "persona desagradable" en la jerga ingles britanica
+-Esta escrito en C
+-Se encuentra bajo licencia GNU GPL v2
+-Su codigo se encuentra alojado en github (https://github.com/git/git-scm.com)
+
+E3/
+-El branch por default de todo repositorio git es el "master"
+-El commit id es un hash SHA-1 de varias cosas, entre ellas el contenido del commit, el mensaje, datos del usuario y los commits anteriores
+-Un branch y un tag son distintos en que un branch va avanzando a medida que crece esa rama. De otra forma, un tag siempre va a apuntar al mismo commit, por eso podemos utilizarlo para marcar un estado que nos interesa, como puede ser un build de nuestra aplicacion, en cambio el branch al que vayamos commiteando va a ir siempre apuntando al ultimo commit de esa rama y por lo tanto no es una referencia a un commit especifico y constante si no mas bien al ultimo estado de una secuencia de commits
+
+E4/
+-Para sacar de stage: $ git reset HEAD <archivo>...
+-Para descartar los cambios del ultimo commit (sin push): $ git reset HEAD^
+-Para volver a un commit previo: $ git checkout <commit> .
+
